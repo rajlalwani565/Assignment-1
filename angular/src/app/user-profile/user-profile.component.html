@@ -1,0 +1,44 @@
+<table *ngIf="userDetails" class="table-fill">
+    <thead>
+        <tr>
+            <th colspan="2" class="text-center">User Profile</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- <tr>
+            <mat-form-field>
+                <mat-label>Choose a date</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+              <button mat-raised-button (click)="picker.open()">Open</button>
+        </tr> -->
+
+        <tr>
+            <td>First Name</td>
+            <td>{{userDetails.fullName.split(' ')[0]}}</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>{{userDetails.fullName.split(' ')[1]}}</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>{{userDetails.email}}</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                <input type="button" (click)="onLogout()" value="Logout" />
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" class="text-center">User Transactions</th>
+        </tr>
+
+        <br />
+        <ag-grid-angular style="width: 1200px;height: 350px;" class="ag-theme-alpine" [rowData]="rowData"
+            [columnDefs]="columnDefs">
+        </ag-grid-angular>
+
+    </tbody>
+</table>

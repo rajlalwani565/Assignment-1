@@ -1,0 +1,25 @@
+userid:_id, amount:50000, description: NEFT, type:"Debit", isDeleted:false;
+
+userid:_id, amount:20000, description: NEFT, type:"Debit", isDeleted:false;
+
+userid:_id, amount:70000, description: NEFT, type:"Credit", isDeleted:false;
+
+userid:_id, amount:50000, description: RTGS, type:"Credit", isDeleted:false;
+
+userid:_id, amount:4000, description: RTGS, type:"Debit", isDeleted:false;
+
+userid:_id, amount:8000, description: NEFT, type:"Credit", isDeleted:false;
+
+userid:_id, amount:900, description: RTGS, type:"Debit", isDeleted:false;
+
+userid:_id, amount:340, description: NEFT, type:"Credit", isDeleted:false;
+
+userid:_id, amount:7650, description: RTGS,type:"Debit", isDeleted:false;
+
+userid:_id, amount:12000, description: NEFT, type:"Debit", isDeleted:false;
+
+userid:_id, amount:3220, description: NEFT, type:"Credit", isDeleted:false;
+
+userid:_id, amount:6780, description: NEFT, type:"Debit", isDeleted:false;
+
+userid:_id, amount:150, description: RTGS, type:"Debit", isDeleted:false;
